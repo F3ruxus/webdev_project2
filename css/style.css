@@ -1,6 +1,26 @@
+/* Shared styling  */
 html, body {
   height: 100%;
   font-family: 'Poppins', Arial, sans-serif;
   margin: 0;
   color: #222;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+img, video{
+  max-width: 100%;
+  height: auto;
+}
+main, section {
+  padding: 2rem;
 }
