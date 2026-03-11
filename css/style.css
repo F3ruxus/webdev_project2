@@ -29,3 +29,30 @@ main, section {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+body.index {
+  background-color: #31aaea;
+}
+body.index section ul {
+  column-count: 2;
+  column-gap: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@keyframes colors {
+  0% { background-color: red; }
+  20% { background-color: orange; }
+  40% { background-color: yellow; }
+  60% { background-color: green; }
+  80% { background-color: blue; }
+  100% { background-color: purple; }
+}
+@keyframes gameColors {
+  0% { background-color: red; }
+  20% { background-color: orange; }
+  40% { background-color: yellow; }
+  60% { background-color: green; }
+  80% { background-color: blue; }
+  100% { background-color: purple; }
+}
