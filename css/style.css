@@ -25,6 +25,7 @@ main, section {
   padding: 2rem;
 }
 .intro-section {
-  text-align: left;
+  max-width: 60rem;
+  margin: 0 auto;
   padding: 4rem 2rem;
 }
