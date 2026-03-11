@@ -24,3 +24,7 @@ img, video{
 main, section {
   padding: 2rem;
 }
+.intro-section {
+  text-align: left;
+  padding: 4rem 2rem;
+}
