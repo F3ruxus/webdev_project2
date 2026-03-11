@@ -25,12 +25,12 @@ main, section {
   padding: 2rem;
 }
 .intro-section {
-  max-width: 60rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 0 0.5rem;
 }
 
-/* Games page */
+/* Games page -------------------------------------------------------*/
 .games {
   background-color: #F08080;
 }
@@ -41,8 +41,27 @@ main, section {
 }
 .games section h2 {
   position: relative;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   padding-left: 0.75rem;
+}
+#bfsix{
+  font-family:'Courier New', Courier, monospace;
+  color: #361e1e;
+}
+#kh{
+  font-family: 'Brush Script MT', cursive, sans-serif;
+  color: #4e2b2b;
+}
+#miku{
+  font-family: 'Monaco', monospace, sans-serif;
+  color: #663939;
+}
+#cytus{
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: #774242;
+}
+#cod{
+  color: #834949;
 }
 
 /* body.index {
