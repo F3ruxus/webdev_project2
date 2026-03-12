@@ -30,7 +30,24 @@ main, section {
   padding: 0 0.5rem;
 }
 
-/* Games page -------------------------------------------------------*/
+#index {
+  background-color: #72c7f5;
+}
+#index h1 {
+  font-size: 2.25rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+}
+#skills{
+  color: #0b2533;
+}
+#experiences{
+  color: #154863;
+}
+#education{
+  color: #1d6084;
+}
+
 #games {
   background-color: #F08080;
 }
@@ -64,7 +81,6 @@ main, section {
   color: #834949;
 }
 
-/* Memes page -------------------------------------------------------*/
 #memes {
   background-color: #79e27f;
 }
@@ -91,13 +107,4 @@ main, section {
 }
 #pancakes{
   color: #4d8d50;
-}
-/* body.index {
-  background-color: #31aaea;
-}
-body.index section ul {
-  column-count: 2;
-  column-gap: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.5;
 }
