@@ -31,15 +31,15 @@ main, section {
 }
 
 /* Games page -------------------------------------------------------*/
-.games {
+#games {
   background-color: #F08080;
 }
-.games section img {
+#games section img {
   width: 100%;
   height: auto;
   border-radius: 0.375rem;
 }
-.games section h2 {
+#games section h2 {
   position: relative;
   font-size: 1.5rem;
   padding-left: 0.75rem;
@@ -64,6 +64,34 @@ main, section {
   color: #834949;
 }
 
+/* Memes page -------------------------------------------------------*/
+#memes {
+  background-color: #79e27f;
+}
+#memes section video {
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+}
+#subtitle {
+  font-style: italic;
+  color: #1a3b1a;
+}
+#miningBricks{
+  color: #1f3b21;
+}
+#bfsixExp{
+  color: #2b512d;
+}
+#bugatti{
+  color: #366438;
+}
+#bugattiTwo{
+  color: #407643;
+}
+#pancakes{
+  color: #4d8d50;
+}
 /* body.index {
   background-color: #31aaea;
 }
@@ -72,21 +100,4 @@ body.index section ul {
   column-gap: 1.5rem;
   font-size: 1rem;
   line-height: 1.5;
-}
-
-@keyframes colors {
-  0% { background-color: red; }
-  20% { background-color: orange; }
-  40% { background-color: yellow; }
-  60% { background-color: green; }
-  80% { background-color: blue; }
-  100% { background-color: purple; }
-}
-@keyframes gameColors {
-  0% { background-color: red; }
-  20% { background-color: orange; }
-  40% { background-color: yellow; }
-  60% { background-color: green; }
-  80% { background-color: blue; }
-  100% { background-color: purple; } */
 }
