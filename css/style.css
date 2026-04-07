@@ -95,6 +95,8 @@ main, section {
 }
 #miningBricks{
   color: #1f3b21;
+  max-height: 30%;
+  object-fit: contain;
 }
 #bfsixExp{
   color: #2b512d;
